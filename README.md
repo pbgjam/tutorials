@@ -1,24 +1,7 @@
-# NEON-GJAM
-NASA NEON data project
+This NASA funded project integrates key remote sensing variables with continental scale ecological data to provide broadly accessible ecological forecasts to determine which species and communities are most vulnerable to climate change and to forecast responses of entire communities.
 
-#### Personnel
-Dr. Jim Clark (Co-PI)
+#### This github site includes tutorials for two packages GJAM and geedataextract
 
-Dr. Jennifer Swenson (Co-PI)
+- GJAM is an R package that analyzes joint attribute data (e.g., species abundance) that are combinations of continuous and discrete data with Gibbs sampling. The tutorial in the folder tutorialsGJAM describes how to fit a GJAM and interpret results in R. For even more information on how to use GJAM, see the full [GJAM vignette](https://cran.r-project.org/web/packages/gjam/vignettes/gjamVignette.html)
 
-John Fay (Data analyst)
-
-Amanda Schwantes (Data Analyst, Post doc)
-
-Brad Tomasek (Data analyst)
-
-Christ Kilner (Phd Student)
-
-#### Overview
-This NSF funded project integrates key remote sensing variables with continental scale ecological data to provide broadly accessible ecological forecasts to determine which species and communities are most vulnerable to climate change and to forecast responses of entire communities. 
-
-The scripts hosted here consist of the following sections:
- - **NEON**: Scripts to extract and synthesize species observation records from the [NEON repository](http://data.neonscience.org/data-api). 
- - **DAAC**: Scripts to extract remotely sensed data for specific locations from the [NASA LP-DAAC](https://lpdaac.usgs.gov/).
- - **GJAM**: Scripts to use the Generalized Joint Attribute Model ([GJAM](https://cran.r-project.org/web/packages/gjam/vignettes/gjamVignette.html)) package using the extracted data above. 
- - **Interface**: Scripts to assemble the web interface allowing users to visualize impacts under different climate scenarios.
+- geedataextract is a python package for processing and downloading environmental and remote sensing data from Google Earth Engine, using the GEE python API. A tutorial in jupyter notebooks is in the folder "tutorialsGEEDATAEXTRACT".
